@@ -59,24 +59,26 @@
    git clone https://github.com/yourusername/ProdReco.git
    cd ProdReco
 
-Install dependencies:
-pip install -r requirements.txt
+2. **Install dependencies**:
+    ```bash 
+    pip install -r requirements.txt
 
-Run the Streamlit app:
-streamlit run app.py
+3. **Run the Streamlit app**:
+    ```bash
+    streamlit run app.py
 
-🎯 Future Improvements
-Integrate deep learning-based embedding models like BERT or SBERT
+## 🎯 Future Improvements
+1. Integrate deep learning-based embedding models like BERT or SBERT
 
-Add user login and history-based recommendations
+2. Add user login and history-based recommendations
 
-Expand dataset for multi-category recommendation
+3. Expand dataset for multi-category recommendation
 
-Deploy as a web service via Docker or cloud platforms
+4. Deploy as a web service via Docker or cloud platforms
 
-🙌 Acknowledgments
-Flipkart Dataset (Kaggle or other sources)
+## 🙌 Acknowledgments
+1. Flipkart Dataset (Kaggle or other sources)
 
-NLTK, SpaCy, Gensim
+2. NLTK, SpaCy, Gensim
 
-Streamlit
+3. Streamlit
