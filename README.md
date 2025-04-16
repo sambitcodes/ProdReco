@@ -64,3 +64,19 @@ pip install -r requirements.txt
 
 Run the Streamlit app:
 streamlit run app.py
+
+🎯 Future Improvements
+Integrate deep learning-based embedding models like BERT or SBERT
+
+Add user login and history-based recommendations
+
+Expand dataset for multi-category recommendation
+
+Deploy as a web service via Docker or cloud platforms
+
+🙌 Acknowledgments
+Flipkart Dataset (Kaggle or other sources)
+
+NLTK, SpaCy, Gensim
+
+Streamlit
