@@ -60,12 +60,7 @@
    cd ProdReco
 
 Install dependencies:
-
-bash
-CopyEdit
 pip install -r requirements.txt
-Run the Streamlit app:
 
-bash
-CopyEdit
+Run the Streamlit app:
 streamlit run app.py
