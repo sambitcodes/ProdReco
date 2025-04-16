@@ -62,13 +62,11 @@ Once the descriptions are vectorized, we use **cosine similarity** to measure ho
 
 ##### 📊 Mathematical Formula:
 
-\[
-\text{cosine\_similarity}(A, B) = \frac{A \cdot B}{\|A\| \|B\|} = \frac{\sum_{i=1}^{n} A_i B_i}{\sqrt{\sum_{i=1}^{n} A_i^2} \cdot \sqrt{\sum_{i=1}^{n} B_i^2}}
-\]
+\[\text{cosine\_similarity}(A, B) = \frac{A \cdot B}{\|A\| \|B\|} = \frac{\sum_{i=1}^{n} A_i B_i}{\sqrt{\sum_{i=1}^{n} A_i^2} \cdot \sqrt{\sum{i=1}^{n} B_i^2}}\]
 
 Where:
 - \( A \) and \( B \) are the vector representations of two product descriptions
-- \( A \cdot B \) is the dot product of the vectors
+- \( A \c dot B \) is the dot product of the vectors
 - \( \|A\| \) and \( \|B\| \) are the Euclidean norms (magnitudes)
 
 ##### 🎯 What Does It Mean?
