@@ -27,7 +27,18 @@
 
 ## 🧠 Methodology
 
-1. **Data Preprocessing**p 5 similar products
+1. **Data Preprocessing**
+    - Removal of stopwords, punctuation, special characters, and symbols
+    - Applied stemming and lemmatization for normalization
+    - Cleaned product titles and descriptions
+
+2. **Corpus Creation**
+    - Constructed a text corpus from cleaned product descriptions
+    - Tokenized and embedded the corpus using various vectorization techniques
+
+3. **Similarity Computation**
+    - Applied `cosine similarity` on the embedded corpus
+    - Built a similarity matrix to identify the top 5 similar products
 
 4. **Recommendation Engine**
     - User inputs a product name or keyword
@@ -41,17 +52,7 @@
  ![Selected Product](img/screenshots/sc2.png)
  ![Recommended Products](img/screenshots/sc3.png)
 
-    - Removal of stopwords, punctuation, special characters, and symbols
-    - Applied stemming and lemmatization for normalization
-    - Cleaned product titles and descriptions
 
-2. **Corpus Creation**
-    - Constructed a text corpus from cleaned product descriptions
-    - Tokenized and embedded the corpus using various vectorization techniques
-
-3. **Similarity Computation**
-    - Applied `cosine similarity` on the embedded corpus
-    - Built a similarity matrix to identify the to
 ---
 
 ## 🧪 How to Run Locally
